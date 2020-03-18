@@ -4,40 +4,40 @@
 #                           |------------------------------------------------------------|
 
 #The CompassName is used to choose the name of the compass
-CompassName: "§cCompassTeleportUI"
+CompassName: "§rTeleporter §b[Use]"
 
 #The title would be the initial part of the UI
-Title: "§cTeleportUI"
+Title: "§rPick a §bServer"
 
 #The description is the part below the UI
-Description: "§aCustom plugin created by GodzHard"
+Description: "§rPlease §bpick a server from below\n§rTo play§b our minigames!"
 
 #The button for teleport in games
 Button: "true"
-Button-On: "Practice"
-Button-Command: "mv tp Practice"
+Button-On: "§5Sky§dBlock §6SEZ§e7!\n§aOnline! Tap!"
+Button-Command: "me Server in §eWORK!"
 
 Button1: "true"
-Button1-On: "PvP"
-Button1-Command: "mv tp PvP"
+Button1-On: "§bPrison §cPre§4Launch\n§aOnline! Tap!"
+Button1-Command: "me SERVER IN §eWORK!"
 
 Button2: "true"
-Button2-On: "Build Battle"
-Button2-Command: "mv tp BuildBattle"
+Button2-On: "§1Factions §3SEZ§b2\n§aOnline! Tap!"
+Button2-Command: "me SERVER in §eWORK!"
 
 Button3: "true"
-Button3-On: "Prison"
-Button3-Command: "mv tp Prison"
+Button3-On: "§6Hub\n§cAlready Connected!"
+Button3-Command: "me §rIs §balready connected §rto the §bHub §rsection."
 
-Button4: "true"
+Button4: "false"
 Button4-On: "SkyWars"
 Button4-Command: "mv tp SkyWars"
 
-Button5: "true"
+Button5: "false"
 Button5-On: "BedWars"
 Button5-Command: "mv tp BedWars"
 
-Button6: "true"
+Button6: "false"
 Button6-On: "Factions"
 Button6-Command: "mv tp Factions"
 
